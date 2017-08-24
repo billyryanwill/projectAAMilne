@@ -1,0 +1,68 @@
+{
+	"games": [{
+		"gameId": "MonsterMaker",
+		"gameData": {
+			"gameTitle": "Monster Maker",
+			"isMobile": true,
+			"htmlTemplate": "monster-maker.html",
+			"azureHtmlTemplate":"https://testcdnstorage.blob.core.windows.net/images/monster-maker.html",
+			"jsTemplate": "/js/vendor/monsterMaker.js",
+			"azureJsTemplate": "https://thegruffalo.blob.core.windows.net/ddw/monsterMaker.js",
+			"init":"monsterMaker.init",
+			"clear":"monsterMaker.clear",
+			"theme": [],
+			"levels": [
+                "easy",
+				"medium",
+				"hard"
+			]
+		}
+	}, {
+		"gameId": "ColouringGame",
+		"gameData": {
+			"gameTitle": "Colouring Game",
+			"isMobile": false,
+			"htmlTemplate": "colouring-game.html",
+			"azureHtmlTemplate":"https://testcdnstorage.blob.core.windows.net/images/colouring-game.html",
+			"jsTemplate": "/js/vendor/colouringGame.js",
+			"azureJsTemplate": "https://thegruffalo.blob.core.windows.net/ddw/colouringGame.js",
+			"init":"colouringGame.init",
+			"clear":"colouringGame.clear",
+			"theme": [],
+			"levels": []
+		}
+	}, {
+		"gameId": "HideAndSeek",
+		"gameData": {
+			"gameTitle": "Hide and Seek",
+			"isMobile": true,
+			"htmlTemplate": "hide-and-seek.html",
+			"azureHtmlTemplate":"https://testcdnstorage.blob.core.windows.net/images/hide-and-seek.html",
+			"jsTemplate": "/js/vendor/hideAndSeek.js",
+			"azureJsTemplate": "https://thegruffalo.blob.core.windows.net/ddw/hideAndSeek.js",
+			"init":"hideAndSeek.init",
+			"clear":"hideAndSeek.clear",
+			"theme": [],
+			"levels": [
+				"easy",
+				"medium",
+				"hard"
+			]
+		}
+	},{
+		"gameId": "MenuMatcher",
+		"gameData": {
+			"gameTitle": "Menu Matcher",
+			"isMobile": true,
+			"htmlTemplate": "menu-matcher.html",
+			"azureHtmlTemplate":"https://testcdnstorage.blob.core.windows.net/images/menu-matcher.html",
+			"jsTemplate": "/js/vendor/menuMatcher.js",
+			"azureJsTemplate": "https://thegruffalo.blob.core.windows.net/ddw/menuMatcher.js",
+			"init":"menuMatch.init",
+			"clear":"menuMatch.clear",
+			"theme": [],
+			"levels": []
+		}
+	}
+	]
+}
